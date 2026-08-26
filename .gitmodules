@@ -1,0 +1,7 @@
+[submodule "API-6-Semestre-Frontend"]
+	path = API-6-Semestre-Frontend
+	url = https://github.com/SQLutionsFATEC/API-6-Semestre-Frontend.git
+
+[submodule "API-6-Semestre-Backend"]
+	path = API-6-Semestre-Backend
+	url = https://github.com/SQLutionsFATEC/API-6-Semestre-Backend.git
