@@ -81,7 +81,7 @@ Our project offers:
 |---|---|---|---|---|---|---|
 |1|High|[[US-01]] - As an employee, I want to search for documents by name, so that I can quickly find the exact file I need, saving time locating documents.|5|1|RF-1| RNF-2, RNF-3|
 |2|High|[[US-02]] - As an operator, I want documents to be automatically classified using tags to facilitate the use of the system by engineers, saving search time and improving document organization in the system.|13|1|RF-2|RNF-1|
-|3|High|[[US-03]] - As an engineer, I want the search to include the internal text of the documents, to locate specific technical information even when I don't know the file title, saving the time of reading all files.|13|2|RF-3|RNF-1, RNF-2|
+|3|High|[[US-03]] - As an engineer, I want the search to include the internal text of the documents, to locate specific technical information even when I don't know the file title, saving the time of reading all files.|13|1|RF-3|RNF-1, RNF-2|
 |4|High|[[US-04]] - As an engineer, I want the search to use the standards/tags attached to the documents, to ensure I am consulting the correct regulatory documentation, thus saving time manually identifying what each file is about.|5|2|RF-3|RNF-2|
 |5|High|[[US-06]] - As an operator, I want users to only have access to files they are cleared for, so that document information remains secure and prevents costs from data leaks.|8|2|RF-6|RNF-5|
 |6|High|[[US-07]] - As an employee, I want to exercise my data protection rights, to preserve my privacy and the right to be forgotten.|8|2|RF-7|RNF-4, RNF-6|
