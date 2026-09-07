@@ -84,8 +84,8 @@ Our project offers:
 |3|High|[[US-03]] - As an engineer, I want the search to include the internal text of the documents, to locate specific technical information even when I don't know the file title, saving the time of reading all files.|13|2|RF-3|RNF-1, RNF-2|
 |4|High|[[US-04]] - As an engineer, I want the search to use the standards/tags attached to the documents, to ensure I am consulting the correct regulatory documentation, thus saving time manually identifying what each file is about.|5|2|RF-3|RNF-2|
 |5|High|[[US-06]] - As an operator, I want users to only have access to files they are cleared for, so that document information remains secure and prevents costs from data leaks.|8|2|RF-6|RNF-5|
-|6|Medium|[[US-05]] - As an operator, I want access to an auditing system, to track accesses to the system's documents.|5|2|RF-5|RNF-5|
-|7|High|[[US-07]] - As an employee, I want to exercise my data protection rights, to preserve my privacy and the right to be forgotten.|8|3|RF-7|RNF-4, RNF-6|
+|6|High|[[US-07]] - As an employee, I want to exercise my data protection rights, to preserve my privacy and the right to be forgotten.|8|2|RF-7|RNF-4, RNF-6|
+|7|Medium|[[US-05]] - As an operator, I want access to an auditing system, to track accesses to the system's documents.|5|3|RF-5|RNF-5|
 |8|Low|[[US-08]] - As an engineer, I want to be able to request access to documents to obtain necessary information, saving time in the process of going in person to request document access.|5|3|RF-8|RNF-2|
 
 ### 📌 Sprint Backlog
