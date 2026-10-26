@@ -22,20 +22,24 @@ The client reported that the engineers have a hard time finding and classifying 
 ## The Solution (IAzimute)
 
 ---
+We decided to build a web application to organize, classify, and simplify the search for technical and regulatory prioritizing a frictionless user experience and high-standard data security.
 
-We decided to build a web application to and organize, classify and turn the search for documents easy for any employee.
 Our project offers:
-- A search bar to find documents based on name or even context from the documents.
-- Filters to hasten the search. 
-
+* **Smart Search by Name and Context:** Quickly find files not only by title, but also through full internal content indexing and automated tag classification to assist your search.
+* **Advanced & Regulatory Filters:** Accelerate searches by cross-referencing metadata such as standard types, sectors, and specific tags to ensure access to the correct regulatory documentation.
+* **Secure In-Browser Viewer:** Open documents directly within the system in a protected environment to discourage leaks and unauthorized downloads.
+* **Centralized Upload Management:** Allow operators/admins to upload new PDF files directly through the web interface with mandatory metadata, automatically classifying these documents upon insertion to instantly centralize the knowledge base.
+* **Agile Metadata & Tag Editing:** Enable operators to conveniently fix file indexing errors and update regulatory classifications.
+* **Access Control by Level and Sector:** Granular security integrated with Keycloak, ensuring automatic access exclusively for authorized employees.
+* **LGPD Compliance:** Full support for data privacy, featuring editable profiles, audit logs for traceability, and the right to be forgotten through database record anonymization.
 
 ### 🏁 Sprint Deliverables
 
 |Sprint|Forecast|Status|History|
 |---|---|---|---|
-|01|09/07/2026 to 09/27/2026|Current Stage|On going|
-|02|10/05/2026 to 10/25/2026|Future Stage|Future Stage|
-|03|11/02/2026 to 11/22/2026|Future Stage|Future Stage|
+|01|09/07/2026 to 09/27/2026|Completed Stage|Complete|
+|02|10/05/2026 to 10/25/2026|Completed Stage|Complete|
+|03|11/02/2026 to 11/22/2026|Current Stage|On going|
 
 [→ Back to top](#IAzimute)
 
@@ -43,16 +47,19 @@ Our project offers:
 
 ### ✅ Functional Requirements
 
-| ID    | Functionality                     | Description                                                                                                                                       | Priority |
-| ----- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| RF-1  | Search by Document Name     | Allow users to quickly search for files by partial or full name.                                                        | High     |
-| RF-2  | Automatic Classification            | The system must automatically associate labels to each document to facilitate the search process.                                                                                                  | High     |
-| RF-3  | Internal Text Search Engine        | Index and allow the search of specific technical terms directly within the internal content of the files (e.g., PDFs).                                                                                     | High     |
-| RF-4  | Technical Standards Filter                 | Allow filtering the search by crossing labels and technical standards associated with documents of similar content.                                          | High   |
-| RF-5  | Audit System (Logs)                    | TImplement access and data manipulation logs for traceability.                                                                         | Medium     |
-| RF-6  | Access Control and Permissions            | Restrict file viewing and manipulation only to users with the proper security clearances.                          | High     |
-| RF-7  | LGPD Compliance | Implement data anonymization and database de-characterization records, ensuring the right to be forgotten.                                                        | High     |
-| RF-8  | Access Request Flow              | Create a process in the system so that engineers can formally request access to restricted documents, avoiding physical requests.                         | Low     |
+| ID | Functionality | Description | Priority |
+| --- | --- | --- | --- |
+| RF-1 | Search by Document Name | Allow users to quickly search for files by partial or full name. | High |
+| RF-2 | Automatic Classification | The system must automatically associate labels to each document to facilitate the search process. | High |
+| RF-3 | Internal Text Search Engine | Index and allow the search of specific technical terms directly within the internal content of the files (e.g., PDFs). | High |
+| RF-4 | Technical Standards Filter | Allow filtering the search by crossing labels and technical standards associated with documents of similar content. | High |
+| RF-5 | Audit System (Logs) | Implement access and data manipulation logs for traceability. | Medium |
+| RF-6 | Access Control and Permissions | Restrict file viewing and manipulation only to users with the proper security clearances. | High |
+| RF-7 | LGPD Compliance | Implement data anonymization and database de-characterization records, ensuring the right to be forgotten. | High |
+| RF-8 | Access Request Flow | Create a process in the system so that engineers can formally request access to restricted documents, avoiding physical requests. | Low |
+| RF-9 | Document Upload | Allow operators to upload physical document files (e.g., PDF) directly through the website interface with mandatory metadata. | High |
+| RF-10 | Secure In-Browser Viewer | Enable users to view documents directly inside the system via a secure browser stream, incorporating dynamic watermarking and copy/print deterrents. | High |
+| RF-11 | Metadata & Tag Management | Allow operators to update document metadata (name, type, sector, access level) and tags in a single unified interface. | High |
 
 
 ---
@@ -74,19 +81,19 @@ Our project offers:
 ### 📌 Product Backlog
 
 ---
-
-
-
-|Rank|Priority|User Story|Estimate|Sprint|Functional Requisite|Non-Functional Requisites|
-|---|---|---|---|---|---|---|
-|1|High|[[US-01]] - As an employee, I want to search for documents by name, so that I can quickly find the exact file I need, saving time locating documents.|5|1|RF-1| RNF-2, RNF-3|
-|2|High|[[US-02]] - As an operator, I want documents to be automatically classified using tags to facilitate the use of the system by engineers, saving search time and improving document organization in the system.|13|1|RF-2|RNF-1|
-|3|High|[[US-03]] - As an engineer, I want the search to include the internal text of the documents, to locate specific technical information even when I don't know the file title, saving the time of reading all files.|13|1|RF-3|RNF-1, RNF-2|
-|4|High|[[US-04]] - As an engineer, I want the search to use the standards/tags attached to the documents, to ensure I am consulting the correct regulatory documentation, thus saving time manually identifying what each file is about.|5|2|RF-3|RNF-2|
-|5|High|[[US-06]] - As an operator, I want users to only have access to files they are cleared for, so that document information remains secure and prevents costs from data leaks.|8|2|RF-6|RNF-5|
-|6|High|[[US-07]] - As an employee, I want to exercise my data protection rights, to preserve my privacy and the right to be forgotten.|8|2|RF-7|RNF-4, RNF-6|
-|7|Medium|[[US-05]] - As an operator, I want access to an auditing system, to track accesses to the system's documents.|5|3|RF-5|RNF-5|
-|8|Low|[[US-08]] - As an engineer, I want to be able to request access to documents to obtain necessary information, saving time in the process of going in person to request document access.|5|3|RF-8|RNF-2|
+| Rank | Priority | User Story | Estimate | Sprint | Functional Requisite | Non-Functional Requisites |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | High | [[US-01]] - As an employee, I want to search for documents by name, so that I can quickly find the exact file I need, saving time locating documents. | 5 | 1 | RF-1 | RNF-2, RNF-3 |
+| 2 | High | [[US-02]] - As an operator, I want documents to be automatically classified using tags to facilitate the use of the system by engineers, saving search time and improving document organization in the system. | 13 | 1 | RF-2 | RNF-1 |
+| 3 | High | [[US-03]] - As an engineer, I want the search to include the internal text of the documents, to locate specific technical information even when I don't know the file title, saving the time of reading all files. | 13 | 1 | RF-3 | RNF-1, RNF-2 |
+| 4 | High | [[US-04]] - As an engineer, I want the search to use the standards/tags attached to the documents, to ensure I am consulting the correct regulatory documentation, thus saving time manually identifying what each file is about. | 5 | 2 | RF-4 | RNF-2 |
+| 5 | High | [[US-10]] - As a user, I want to view documents directly in the system via an in-browser secure viewer with dynamic watermarking, to access information quickly without local downloads. | 5 | 2 | RF-10 | RNF-5, RNF-6 |
+| 6 | High | [[US-11]] - As an operator, I want to upload documents directly via the website interface, to centralize the knowledge base agilely and ensure instant availability for the technical team. | 3 | 2 | RF-9 | RNF-3 |
+| 7 | Medium | [[US-09]] - As an operator, I want to modify document metadata (name, type, sector, access level) and tags in a single modal, to correct indexing errors and keep categorization accurate. | 3 | 2 | RF-11 | RNF-3 |
+| 8 | Medium | [[US-06]] - As an operator, I want users to only have access to files they are cleared for (based on sector and access level), so that document information remains secure and prevents data leaks. | 8 | 3 | RF-6 | RNF-5 |
+| 9 | Medium | [[US-07]] - As a user, I want to exercise my data protection rights (profile editing and right to be forgotten via account deletion with anonymization), to preserve my privacy. | 5 | 3 | RF-7 | RNF-4, RNF-6 |
+| 10 | Medium | [[US-05]] - As an operator, I want access to an auditing system, to track accesses to the system's documents. | 5 | 3 | RF-5 | RNF-5 |
+| 11 | Low | [[US-08]] - As an engineer, I want to be able to request access to documents to obtain necessary information, saving time in the process of going in person to request document access. | 5 | 3 | RF-8 | RNF-2 |
 
 ### 📌 Sprint Backlog
 
@@ -94,17 +101,17 @@ Our project offers:
 
 ### [1️⃣ Sprint 1 - Backlog](/docs/project/Sprints/Sprint%201/Sprint_1.md)
 
+https://github.com/user-attachments/assets/abbcb71d-7773-4b2e-941a-0e8c8788fd75
 
-
-### [Youtube video]
+### [Youtube video](https://www.youtube.com/watch?v=T49qXj-Kcdc)
 
 ---
 
 ### [2️⃣ Sprint 2 - Backlog](/docs/project/Sprints/Sprint%202/Sprint_2.md)
 
+https://github.com/user-attachments/assets/397d30c3-280a-4758-90a8-94ebc73689e4
 
-
-### [Youtube video]
+### [Youtube video](https://www.youtube.com/watch?v=iJTb0-J2CRk)
 
 ---
 
