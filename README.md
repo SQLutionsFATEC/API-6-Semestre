@@ -109,9 +109,23 @@ https://github.com/user-attachments/assets/abbcb71d-7773-4b2e-941a-0e8c8788fd75
 
 ### [2️⃣ Sprint 2 - Backlog](/docs/project/Sprints/Sprint%202/Sprint_2.md)
 
+
+## Sprint review
+https://github.com/user-attachments/assets/4257af22-6df1-49d7-84c3-97e92e672575
+
+
+### [Youtube video](https://youtu.be/ulyPjKx72JM)
+
+---
+
+## Application Running
 https://github.com/user-attachments/assets/397d30c3-280a-4758-90a8-94ebc73689e4
 
 ### [Youtube video](https://www.youtube.com/watch?v=iJTb0-J2CRk)
+
+
+
+
 
 ---
 
