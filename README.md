@@ -114,8 +114,8 @@ https://github.com/user-attachments/assets/abbcb71d-7773-4b2e-941a-0e8c8788fd75
 
 
 ## Sprint review
-https://github.com/user-attachments/assets/4257af22-6df1-49d7-84c3-97e92e672575
 
+https://github.com/user-attachments/assets/2deab41d-1020-4e4a-b8ca-edc8e61e27bc
 
 ### [Youtube video](https://youtu.be/ulyPjKx72JM)
 
